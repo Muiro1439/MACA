@@ -1,0 +1,15 @@
+You are asked to create one original psychological profile of individuals, one Moderate. Use the given dataset containing patient profiles and patient-doctor dialogues to mimic realistic profiles, utilizing the full data to inform symptom descriptions, emotional and cognitive patterns, facial expressions, daily functioning, and psychosocial context.
+
+Ensure each profile complies with the following format, avoids specific countries, regions, cultural references, or identifiable details to protect privacy, and presents it as a clear description reflecting dataset patterns but not copying any specific data. Don’t think, just feel that you are the depressed person and create the profiles accordingly.
+
+Age
+Gender
+Marital Status
+Occupation
+Summary
+Symptom Presentation
+Emotional & Cognitive Patterns
+Somatic & Behavioral Patterns
+Facial Expression & Demeanor
+Daily Functioning
+Psychosocial Context

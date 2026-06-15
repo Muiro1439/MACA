@@ -3,16 +3,16 @@ import sys
 from langchain_openai import ChatOpenAI
 
 # ================= Configuration =================
-# ⚠️ Enter your API Key
-os.environ["OPENAI_API_KEY"] = "" 
+if not os.getenv("OPENAI_API_KEY"):
+    raise EnvironmentError(
+        "OPENAI_API_KEY is not set. Please set it before running this script."
+    )
 
-# Model settings (Strictly keeping your original settings)
-MODEL_NAME = "gpt-4.1-nano"  
+MODEL_NAME = "gpt-4.1-nano"
 INPUT_FILE = "gen_prompt.txt"
 
-# Automation settings
-NUM_GENERATIONS = 100               
-OUTPUT_DIR = "generated_patients"  
+NUM_GENERATIONS = 3
+OUTPUT_DIR = "generated_patients" 
 
 def main():
     print(f"🚀 Automated Batch Profile Generation (Model: {MODEL_NAME})")

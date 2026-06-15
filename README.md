@@ -224,6 +224,7 @@ From the project root directory, run:
 ```bash
 python main.py
 ```
+To reproduce the Mild or Moderate experiments, modify TARGET_SEVERITY in config.py and update the profile-generation prompt accordingly.
 
 The program will:
 

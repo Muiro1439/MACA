@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+.env
+
+MACA_Batch_Results_*.csv
+
+profile_generater/generated_patients/*.txt
+!profile_generater/generated_patients/.gitkeep
+profile_generater/patient.txt

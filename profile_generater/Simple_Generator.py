@@ -3,13 +3,12 @@ import sys
 from langchain_openai import ChatOpenAI
 
 # ================= Configuration =================
-# ⚠️ Enter your API Key
-os.environ["OPENAI_API_KEY"] = "" 
+if not os.getenv("OPENAI_API_KEY"):
+    raise EnvironmentError(
+        "OPENAI_API_KEY is not set. Please set it before running this script."
+    )
 
-# Model settings
-MODEL_NAME = "gpt-4.1-nano"  
-
-# File paths
+MODEL_NAME = "gpt-4.1-nano"
 INPUT_FILE = "gen_prompt.txt"
 OUTPUT_FILE = "patient.txt"
 

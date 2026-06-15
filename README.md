@@ -119,10 +119,6 @@ MACA/
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
-├── Mild_test.png
-├── Moderate_test.png
-├── normal.png
-├── correct.png
 ├── result/
 │   ├── Mild_test.png
 │   ├── Moderate_test.png
